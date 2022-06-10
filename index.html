@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+  <title>Stránky na téma zbraní</title>
+  <link rel="icon" type="image/x-icon" href="img/bullet-icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <header>
+  </header>
+  <main>
+    <div class=" w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+      <button onclick="w3_close()" class="w3-bar-item w3-large">Zavřít &times;</button>
+      <li>
+        <h3>Střelné zbraně</h3>
+      </li>
+      <li><a class="navi" href="pistole/index.html">Pistole</a></li>
+      <li><a class="navi" href="Vpistole/index.html">Vzduchová pistole</a></li>
+      <li><a class="navi" href="Puška/index.html">Puška</a></li>
+      <li><a class="navi" href="vzduchovka/index.html">Vzduchovka</a></li>
+      <li><a class="navi" href="naboje/index.html">Náboje</a></li>
+      <li>
+        <h3>Chladné zbraně</h3>
+      </li>
+      <li><a class="navi" href="meč/index.html">Meč</a></li>
+      <li><a class="navi" href="karambit/index.html">Karambit</a></li>
+    </div>
+    <button class="Mbutton w3-xlarge" onclick="w3_open()">☰</button>
+    <div class="uvod">
+      <div class="bgc p-5"></div>
+      <div class="bgc text-center p-3 xlarge">
+        <div class="xxlarge"><strong>Vítejte</strong></div>
+        <div>
+          <p class="fontsize30">Na tehle stránce vám představím ruzné typy zbraní.</p>
+        </div>
+      </div>
+      <div class="bgc p-5 text-center">
+        <p><em>Pro více informací o daném tématu, klikni/klepni na obrázek.</em></p>
+      </div>
+    </div>
+    <div class="nad">
+      <h2 class="text-center">Pistole</h2>
+    </div>
+    <div class="row flex-container">
+      <div class="col">
+        <div>
+          <a href="pistole/index.html"><img class="img-fluid" src="img/zbran1.jpg" alt="glock"></a>
+          <h2><a href="pistole/index.html">Pistole</a></h2>
+        </div>
+      </div>
+      <div class="col">
+        <div>
+          <a href="Vpistole/index.html"><img class="img-fluid" src="img/zbran6.jpg" alt="Krátká vzduchovka"></a>
+          <h2><a href="Vpistole/index.html">Vzduchové pistole</a></h2>
+        </div>
+      </div>
+    </div>
+    <div class="nad">
+      <h2 class="text-center">Pušky</h2>
+    </div>
+    <div class="row flex-container">
+      <div class="col">
+        <div>
+          <a href="Puška/index.html"><img class="img-fluid" src="img/zbran4.jpg" alt="Scorpion EVO"></a>
+          <h2><a href="Puška/index.html">Puška</a></h2>
+        </div>
+      </div>
+      <div class="col">
+        <div>
+          <a href="vzduchovka/index.html"><img class="img-fluid" src="img/zbran5.jpg" alt="Dlouhá vzduchovka"></a>
+          <h2><a href="vzduchovka/index.html">Vzduchovka</a></h2>
+        </div>
+      </div>
+    </div>
+    <div class="nad">
+      <h2 class="text-center">Chladné zbraně</h2>
+    </div>
+    <div class="row flex-container">
+      <div class="col">
+        <div>
+          <a href="meč/index.html"><img class="img-fluid" src="img/zbran3.jpg" alt="Meče"></a>
+          <h2><a href="meč/index.html">Meč</a></h2>
+        </div>
+      </div>
+      <div class="col">
+        <div>
+          <a href="karambit/index.html"><img class="img-fluid" src="img/zbran2.jpg" alt="Karambit"></a>
+          <h2><a href="karambit/index.html">karambit</a></h2>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <hr>
+    &copy;IT1 - Jeroným Baron 2022
+  </footer>
+  <script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+  </script>
+</body>
+</html>
