@@ -19,13 +19,24 @@ body {
 }
 
 .bl {
-    background-color: rgba(10, 212, 212, 0.829);
+    background-color: rgba(10, 212, 212,);
 }
 
 .gr {
-    background-color: rgba(44, 44, 44, 0.863);
+    background-color: rgba(44, 44, 44, 0.7);
+}
+.lt{
+    color: rgb(234, 255, 253);
 }
 
+.fo{
+    background-color: rgb(10, 212, 212);
+    color: rgb(44, 44, 44);
+}
+.iv{
+    font-size: 80px;
+    text-decoration: none;
+}
 .xxlarge {
     font-size: 60px;
 }
