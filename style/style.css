@@ -14,42 +14,48 @@ body {
     color: white !important;
 }
 
-.h1 button{
+.h1 button {
     text-align: start !important;
 }
 
 .bl {
-    background-color: rgba(10, 212, 212,);
+    background-color: rgba(10, 212, 212, );
 }
 
 .gr {
     background-color: rgba(44, 44, 44, 0.7);
 }
-.lt{
+
+.lt {
     color: rgb(234, 255, 253);
 }
 
-.fo{
+.fo {
     background-color: rgb(10, 212, 212);
     color: rgb(44, 44, 44);
 }
-.iv{
+
+.iv {
     font-size: 80px;
     text-decoration: none;
 }
+
 .xxlarge {
     font-size: 60px;
 }
-.sm{
+
+.sm {
     width: 80px;
     height: 80px;
     margin-left: 40%;
 }
-.Ksm{
+
+.Ksm {
     width: 80px;
     height: 80px;
     margin-left: 45.5%;
 }
+
 .xlarge {
     font-size: x-large;
 }
@@ -61,17 +67,25 @@ body {
 .bgc {
     background-color: rgba(44, 44, 44, 0.87);
 }
-.navi{
+
+.navi {
     color: black;
     text-decoration: none;
 }
-.navi:hover{
+
+.navi:hover {
     color: black;
     background-color: rgb(10, 212, 212);
 }
-.h:hover{
+
+.h:hover {
     background-color: rgb(10, 212, 212);
 }
+
+.active {
+    background-color: rgb(10, 212, 212);
+}
+
 .flex-container {
     display: flex;
     flex-flow: row wrap;
@@ -85,105 +99,129 @@ body {
     font-size: 30px;
     text-align: center;
 }
-h2 a{
+
+h2 a {
     text-decoration: none;
     color: rgb(233, 243, 255);
 }
-h2 a:hover{
+
+h2 a:hover {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-h3{
+
+h3 {
     text-align: center;
 }
-.nad{
+
+.nad {
     background-color: rgba(255, 255, 255, 0.7);
     color: black;
     margin-top: 15px;
 }
-.kbg{
+
+.kbg {
     background-color: rgba(44, 44, 44, 0.7);
     color: rgba(233, 243, 255, 0.7);
     margin-top: 20px;
 }
-ul{
+
+ul {
     list-style-type: none;
     margin: 10px;
     padding: 0px;
 }
-.w3-sidebar{
-    height:100%;
-    width:250px;
-    background-color:rgba(255, 255, 255, 0.7);
+
+.w3-sidebar {
+    height: 100%;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.7);
     list-style-type: none;
-    position:fixed!important;
-    z-index:1;
-    overflow:auto
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto
 }
-.w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{
-    width:100%
+
+.w3-bar-block .w3-dropdown-hover,
+.w3-bar-block .w3-dropdown-click {
+    width: 100%
 }
-.w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{
-    min-width:100%
+
+.w3-bar-block .w3-dropdown-hover .w3-dropdown-content,
+.w3-bar-block .w3-dropdown-click .w3-dropdown-content {
+    min-width: 100%
 }
-.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{
-    width:100%;
-    text-align:left;
-    padding:8px 16px
+
+.w3-bar-block .w3-dropdown-hover .w3-button,
+.w3-bar-block .w3-dropdown-click .w3-button {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px
 }
-.w3-bar-block .w3-bar-item{
-    width:100%;
-    display:block;
-    padding:8px 16px;
-    text-align:left;
-    border:none;
-    white-space:normal;
-    float:none;
-    outline:0
+
+.w3-bar-block .w3-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
 }
-.w3-bar-block.w3-center .w3-bar-item{
-    text-align:center
+
+.w3-bar-block.w3-center .w3-bar-item {
+    text-align: center
 }
-.w3-block{
-    display:block;
-    width:100%
+
+.w3-block {
+    display: block;
+    width: 100%
 }
-.w3-border-right{
-    border-right:1px solid #ccc!important
+
+.w3-border-right {
+    border-right: 1px solid #ccc !important
 }
-.Mbutton{
-    border:none;
-    display:inline-block;
-    padding:8px 16px;
-    vertical-align:middle;
-    overflow:hidden;
-    text-decoration:none;
-    color:white;
-    background-color:inherit;
-    text-align:center;
-    cursor:pointer;
-    white-space:nowrap
+
+.Mbutton {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
 }
-.w3-xlarge{
-    font-size:24px!important
+
+.w3-xlarge {
+    font-size: 24px !important
 }
-.w3-xxlarge{
-    font-size:36px!important
+
+.w3-xxlarge {
+    font-size: 36px !important
 }
-.w3-xxxlarge{
-    font-size:48px!important
+
+.w3-xxxlarge {
+    font-size: 48px !important
 }
-.w3-jumbo{
-    font-size:64px!important
+
+.w3-jumbo {
+    font-size: 64px !important
 }
-.w3-large{
-    font-size:18px!important
+
+.w3-large {
+    font-size: 18px !important
 }
-.w3-bar-item{
-    padding:8px 16px;
-    float:left;
-    width:auto;
-    border:none;
-    display:block;
-    outline:0
+
+.w3-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
 }
