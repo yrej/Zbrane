@@ -34,7 +34,9 @@
         </li>
         <li class="h"><a class="navi" href="../meč/index.html">Meč</a></li>
         <li class="h"><a class="navi" href="index.html">Karambit</a></li>
-        <h4>Quiz</h4>
+        <li>
+          <h4>Quiz</h4>
+        </li>
         <li class="active"><a class="navi" href="index.html">Quiz</a></li>
       </ul>
     </div>
@@ -56,7 +58,7 @@
           <label for="jmeno" class="col-sm-3 col-form-label">Jméno studenta</label>
           <div class="col-sm-9">
             <input type="text" class="form-control" name="jmeno" id="jmeno" placeholder="Zadej křestní jméno">
-            <div id="answ" class="collapse bg-success">
+            <div class="answ collapse bg-success">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
               voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
               rerum ipsam harum veniam exercitationem magnam?
@@ -67,7 +69,7 @@
           <label for="narozeni" class="col-sm-3 col-form-label">Datum narození</label>
           <div class="col-sm-9">
             <input type="date" class="form-control" name="narozeni" id="narozeni">
-            <div id="answ" class="collapse bg-success">
+            <div class="answ collapse bg-success">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
               voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
               rerum ipsam harum veniam exercitationem magnam?
@@ -78,7 +80,7 @@
           <label for="email" class="col-sm-3 col-form-label">E-mail</label>
           <div class="col-sm-9">
             <input type="email" class="form-control" name="email" id="email">
-            <div id="answ" class="collapse bg-success">
+            <div class="answ collapse bg-success">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
               voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
               rerum ipsam harum veniam exercitationem magnam?
@@ -89,7 +91,7 @@
           <label for="barva" class="col-sm-3 col-form-label">Preferovaná barva</label>
           <div class="col-sm-9">
             <input type="color" class="form-control" name="barva" id="barva">
-            <div id="answ" class="collapse bg-success">
+            <div class="answ collapse bg-success">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
               voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
               rerum ipsam harum veniam exercitationem magnam?
@@ -100,7 +102,7 @@
           <label for="heslo" class="col-sm-3 col-form-label">Heslo</label>
           <div class="col-sm-9">
             <input type="password" class="form-control" name="heslo" id="heslo">
-            <div id="answ" class="collapse bg-success">
+            <div class="answ collapse bg-success">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
               voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
               rerum ipsam harum veniam exercitationem magnam?
@@ -111,7 +113,7 @@
           <label for="absence" class="col-sm-3 col-form-label">Absence</label>
           <div class="col-sm-3">
             <input type="number" class="form-control" name="absence" id="absence" value="0" min="0" max="1200" step="1">
-            <div id="answ" class="collapse bg-success">
+            <div class="answ collapse bg-success">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
               voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
               rerum ipsam harum veniam exercitationem magnam?
@@ -131,7 +133,7 @@
                 <input class="form-check-input" type="radio" name="pohlavi" id="zena" value="žena" checked> žena
               </label>
             </div>
-            <div id="answ" class="collapse bg-success">
+            <div class="answ collapse bg-success">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
               voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
               rerum ipsam harum veniam exercitationem magnam?
@@ -159,7 +161,7 @@
                 Opera
               </label>
             </div>
-            <div id="answ" class="collapse bg-success">
+            <div class="answ collapse bg-success">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
               voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
               rerum ipsam harum veniam exercitationem magnam?
@@ -174,7 +176,7 @@
               <option value="SV" selected>Strojírenství</option>
               <option value="UO">Umělecké obory</option>
             </select>
-            <div id="answ" class="collapse bg-success">
+            <div class="answ collapse bg-success">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
               voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
               rerum ipsam harum veniam exercitationem magnam?
@@ -190,7 +192,7 @@
         <div class="mb-3 row">
           <div class="offset-sm-3 col-sm-9">
             <button type="button" class="btn btn-success" data-bs-toggle="collapse"
-              data-bs-target="#answ">Odpovědi</button>
+              data-bs-target=".answ">Odpovědi</button>
           </div>
         </div>
       </form>
