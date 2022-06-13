@@ -102,6 +102,23 @@ body {
     text-align: center;
 }
 
+.sez{
+    list-style-type: circle;
+    margin: 25px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  table{
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.322);
+}
+thead{
+    background-color:rgb(234, 255, 253);
+    color: gray;
+}
 h2 a {
     text-decoration: none;
     color: rgb(233, 243, 255);
