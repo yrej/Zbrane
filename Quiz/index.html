@@ -55,138 +55,98 @@
     <div class="kbg container pt-2 pb-2 border">
       <form>
         <div class="mb-3 row">
-          <label for="jmeno" class="col-sm-3 col-form-label">Jméno studenta</label>
+          <label for="zeme" class="col-sm-3 col-form-label">Z jake země původně pochází karambit?</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" name="jmeno" id="jmeno" placeholder="Zadej křestní jméno">
-            <div class="answ collapse bg-success">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
-              voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
-              rerum ipsam harum veniam exercitationem magnam?
+            <input type="text" class="form-control" name="zeme" id="zeme" placeholder="Zeme">
+            <div class="answ alert collapse bg-success">
+              Filipíny
             </div>
           </div>
         </div>
         <div class="mb-3 row">
-          <label for="narozeni" class="col-sm-3 col-form-label">Datum narození</label>
-          <div class="col-sm-9">
-            <input type="date" class="form-control" name="narozeni" id="narozeni">
-            <div class="answ collapse bg-success">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
-              voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
-              rerum ipsam harum veniam exercitationem magnam?
-            </div>
-          </div>
-        </div>
-        <div class="mb-3 row">
-          <label for="email" class="col-sm-3 col-form-label">E-mail</label>
-          <div class="col-sm-9">
-            <input type="email" class="form-control" name="email" id="email">
-            <div class="answ collapse bg-success">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
-              voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
-              rerum ipsam harum veniam exercitationem magnam?
-            </div>
-          </div>
-        </div>
-        <div class="mb-3 row">
-          <label for="barva" class="col-sm-3 col-form-label">Preferovaná barva</label>
-          <div class="col-sm-9">
-            <input type="color" class="form-control" name="barva" id="barva">
-            <div class="answ collapse bg-success">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
-              voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
-              rerum ipsam harum veniam exercitationem magnam?
-            </div>
-          </div>
-        </div>
-        <div class="mb-3 row">
-          <label for="heslo" class="col-sm-3 col-form-label">Heslo</label>
-          <div class="col-sm-9">
-            <input type="password" class="form-control" name="heslo" id="heslo">
-            <div class="answ collapse bg-success">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
-              voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
-              rerum ipsam harum veniam exercitationem magnam?
-            </div>
-          </div>
-        </div>
-        <div class="mb-3 row">
-          <label for="absence" class="col-sm-3 col-form-label">Absence</label>
+          <label for="rok" class="col-sm-3 col-form-label">Z jakého roku pocházejí první zmíky o vzduchových zbraních?</label>
           <div class="col-sm-3">
-            <input type="number" class="form-control" name="absence" id="absence" value="0" min="0" max="1200" step="1">
-            <div class="answ collapse bg-success">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
-              voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
-              rerum ipsam harum veniam exercitationem magnam?
+            <input type="number" class="form-control" name="rok" id="rok" value="0" min="1400" max="2000" step="1">
+            <div class="answ alert collapse bg-success">
+              1590
             </div>
           </div>
         </div>
         <div class="mb-3 row">
-          <label for="pohlavi" class="col-sm-3 col-form-label">Pohlaví</label>
+          <label for="jmeno" class="col-sm-3 col-form-label">Jak se jmenoval člocěk který získal první patent na samočinnou pušku?</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" name="jmeno" id="jmeno" placeholder="jméno a příjmení">
+            <div class="answ alert collapse bg-success">
+              Regulus Pilon
+            </div>
+          </div>
+        </div>
+        <!--zde-->
+        <div class="mb-3 row">
+          <label for="prohlizec" class="col-sm-3 col-form-label">Která z možností není částí meče?</label>
           <div class="col-sm-9">
             <div class="form-check form-check-inline">
-              <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="pohlavi" id="muz" value="muž"> muž
+              <input type="checkbox" class="form-check-input" name="čepel" id="čepel" value="čepel">
+              <label class="form-check-label" for="čepel">
+                čepel
               </label>
             </div>
             <div class="form-check form-check-inline">
-              <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="pohlavi" id="zena" value="žena" checked> žena
+              <input type="checkbox" class="form-check-input" name="tělo" id="tělo" value="tělo">
+              <label class="form-check-label" for="tělo">
+                tělo
               </label>
             </div>
-            <div class="answ collapse bg-success">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
-              voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
-              rerum ipsam harum veniam exercitationem magnam?
+            <div class="form-check form-check-inline">
+              <input type="checkbox" class="form-check-input" name="jílec" id="jílec" value="jílec">
+              <label class="form-check-label" for="jílec">
+               jílec
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input type="checkbox" class="form-check-input" name="Rukojeť" id="Rukojeť" value="Rukojeť">
+              <label class="form-check-label" for="Rukojeť">
+                Rukojeť
+              </label>
+            </div>
+            
+            <div class="form-check form-check-inline">
+              <input type="checkbox" class="form-check-input" name="Hlavice" id="Hlavice" value="Hlavice">
+              <label class="form-check-label" for="Hlavice">
+                Hlavice
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input type="checkbox" class="form-check-input" name="nožka" id="nožka" value="nožka">
+              <label class="form-check-label" for="nožka">
+                nožka
+              </label>
+            </div>
+            <div class="answ alert collapse bg-success">
+              tělo,nožka
             </div>
           </div>
         </div>
         <div class="mb-3 row">
-          <label for="prohlizec" class="col-sm-3 col-form-label">Prohlížeč</label>
+          <label for="obor" class="col-sm-3 col-form-label">Jaký z těchto nábojů má největší úsťovou rychlost?</label>
           <div class="col-sm-9">
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" name="chrome" id="chrome" value="Google Chrome" checked>
-              <label class="form-check-label" for="chrome">
-                Google Chrome
-              </label>
-            </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" name="firefox" id="firefox" value="Mozilla Firefox">
-              <label class="form-check-label" for="firefox">
-                Mozilla Firefox
-              </label>
-            </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" name="opera" id="opera" value="Opera">
-              <label class="form-check-label" for="opera">
-                Opera
-              </label>
-            </div>
-            <div class="answ collapse bg-success">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
-              voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
-              rerum ipsam harum veniam exercitationem magnam?
-            </div>
-          </div>
-        </div>
-        <div class="mb-3 row">
-          <label for="obor" class="col-sm-3 col-form-label">Studijní obor</label>
-          <div class="col-sm-9">
-            <select class="form-control" name="obor" id="obor" multiple>
-              <option value="IT">Informační technologie</option>
-              <option value="SV" selected>Strojírenství</option>
-              <option value="UO">Umělecké obory</option>
+            <select class="form-control" name="obor" id="obor">
+              <option value=".22" selected>.22 Long Rifle</option>
+              <option value=".357">.357 Magnum</option>
+              <option value="9mm">9 mm Luger</option>
+              <option value=".38">.38 Special</option>
+              <option value=".223">.223 Remington</option>
+              <option value=".204">.204 Ruger</option>
             </select>
-            <div class="answ collapse bg-success">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime doloremque sit voluptates delectus
-              voluptatem ipsam, repellendus necessitatibus? Dolorem reprehenderit, iusto esse, ducimus fugiat ipsum
-              rerum ipsam harum veniam exercitationem magnam?
+            <div class="answ alert collapse bg-success">
+              .204 Ruger
             </div>
           </div>
         </div>
         <div class="mb-3 row">
-          <label for="poznamka" class="col-sm-3 col-form-label">Poznámka</label>
+          <label for="poznamka" class="col-sm-3 col-form-label">poznámka</label>
           <div class="col-sm-9">
-            <textarea class="form-control" name="poznamka" id="poznamka" rows="6">Tady bude poznámka</textarea>
+            <textarea class="form-control" name="poznamka" id="poznamka" rows="6" placeholder="Zde mi můžete napsat co byste zlepšili na těchto stránkách :)"></textarea>
           </div>
         </div>
         <div class="mb-3 row">
